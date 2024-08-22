@@ -60,6 +60,38 @@
   <li>Repeat the outer loop until 'i' exceeds 5.</li>
   <li>End.</li>
 </ol>
+<h2>Floyd Series</h2>
+<ol>
+  <li>Start.</li>
+  <li>Declare three integer variables 'i', 'j', 'k'
+  <ul>
+    <li>Initialise 'k' to '1'.</li>
+  </ul>
+  </li>
+  <li>outer for loop begins: 
+  <ul>
+    <li>Initialise 'i' to 1.</li>
+    <li>Condition: Loop runs as long as 'i' is less than or equal to 5.</li>
+    <li>Increment 'i' by 1 after each iteration</li>
+  </ul>
+  </li>
+  <li>Inner for loop(nested) begins: 
+  <ul>
+    <li>Initialise 'j' to 1.</li>
+    <li>Condition: Loop runs as long as 'j' is less than or equal to 1.</li>
+    <li>Increment 'j' by 1 after each iteration.</li>
+    <li>Inside Inner Loop:
+    <ul>
+      <li>Display the value of 'k' followed by a space.</li>
+      <li>Increment 'k' by 1.</li>
+    </ul>
+    </li>
+  </ul>
+  </li>
+  <li>After exiting the inner loop, move to the next line by using 'endl'.</li>
+  <li>Repeat the loop until'i' exceeds 5.</li>
+  <li>End.</li>
+</ol>
 <hr>
 <h1>Conclusion</h1>
 <p>In conclusion, it is possible to state that decision-making statements and loops are significant for C++ application development to build more adjustable and productive programs.</p>
