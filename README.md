@@ -60,6 +60,35 @@
   <li>Repeat the outer loop until 'i' exceeds 5.</li>
   <li>End.</li>
 </ol>
+<h2>Inverted Half Pyramid</h2>
+<ol>
+  <li>Start.</li>
+  <li>Initialise 'k' to 1 and declare variables 'i' and 'j'.</li>
+  <li>Outer loop- iterate over rows
+  <ul>
+    <li>Initialise 'i' to 1.</li>
+    <li>Condition: loop runs as long as 'i' is less than or equal 5.</li>
+    <li>Increment 'i' by 1 after each iteration.</li>
+  </ul>
+  </li>
+  <li>Inner loop- iterate over columns
+  <ul>
+    <li>Initialise 'j' to 1.</li>
+    <li>Condition: loop runs as long as 'j' is less than or equal to 5.</li>
+    <li>Increment 'j' by 1 after each iteration.</li>
+    <li>Inside inner loop:
+    <ul>
+      <li>if j>=k, print a '*'.</li>
+      <li>Else, print a space.</li>
+    </ul>
+    </li>
+  </ul>
+  </li>
+  <li>After the inner loop completes for the current row, move the cursor to the next line (print a newline).</li>
+  <li>Decrement the value of k by 1 to shift the starting position of the stars leftward in the next row.</li>
+  <li>Finish the loop.</li>
+  <li>End.</li>
+</ol>
 <h2>Floyd Series</h2>
 <ol>
   <li>Start.</li>
